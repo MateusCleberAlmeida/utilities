@@ -7,7 +7,7 @@ namespace Teste.Services
 {
     public static class TokenService
     {
-        public static string GenerateToken(UserService user)
+        public static string GenerateToken(User user)
         {
             // Instanciar a classe responsável por gerar o token
             var tokenHandler = new JwtSecurityTokenHandler();
